@@ -1,16 +1,30 @@
-# sliver_widget_poc
+# Shopping cart
 
-A new Flutter project.
+A Flutter project.
+
+Flutter 3.13.7 • channel dev
+
+Dart SDK version: 3.1.3 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is for underastanding of Sliver widget with nested scroll handling with SliverList, SliverGrid.
+ 
+## ScreenShots
+<img src="https://github.com/ketan7055/flutter_sliver_nested_scroll/assets/33648294/65a798ce-6087-4973-a086-d2aedd4d9732.png" width="200" height="400" />  
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://github.com/ketan7055/flutter_sliver_nested_scroll/assets/33648294/8ee38462-fd2a-4b5c-89be-22295094f6c7.png" width="200" height="400" />  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src="https://github.com/ketan7055/flutter_sliver_nested_scroll/assets/33648294/b7d6ffaa-c359-4117-a3fb-228261267d43.png" width="200" height="400" />  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/ketan7055/flutter_sliver_nested_scroll/assets/33648294/036cd914-e2fa-4950-9cdf-a210fa8b2ccf.png" width="200" height="400" />  
+
+
+
+
+
+
+
+
+
+
