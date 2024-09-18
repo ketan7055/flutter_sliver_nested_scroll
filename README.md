@@ -14,7 +14,7 @@ This project is for underastanding of Sliver widget with nested scroll handling 
 ## ScreenShots
 Old  Multi View Scrolling:
 
-<img src="https://github.com/user-attachments/assets/63141d28-99c3-4bd4-8dae-14de68b0c8c0" width="200" height="400" />  
+<img src="https://github.com/user-attachments/assets/c41b4c60-3454-4b6c-b8d8-c1ee9b2e4051" width="200" height="400" />  
 
 <br/>
 
@@ -25,7 +25,7 @@ Sliver Multi View Scrolling
 
 
 <br/>
-Sliver Full Example: 
+
 <br/>
 
 <img src="https://github.com/user-attachments/assets/d1062526-87b7-492b-abb6-1ed04d21767f" width="200" height="400" />  
