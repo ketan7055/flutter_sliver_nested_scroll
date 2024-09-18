@@ -7,19 +7,22 @@ class MultiViewScrollScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text('Multi-View Scroll (Old Approach)'),
+        title: const Text('Multi-View Scroll (Old Approach)'),
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 100,
-            color: Colors.blue,
-            child: const Center(
-                child: Text('Header View',
-                    style: TextStyle(color: Colors.white, fontSize: 24))),
-          ),
-          Expanded(
-            child: ListView(
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Container(
+              height: 100,
+              color: Colors.blue,
+              child: const Center(
+                  child: Text('Header View',
+                      style: TextStyle(color: Colors.white, fontSize: 24))),
+            ),
+            ListView(
+              padding: const EdgeInsets.all(0.0),
+              physics: const NeverScrollableScrollPhysics(),
+              shrinkWrap: true,
               children: [
                 Container(
                     height: 200,
@@ -41,17 +44,21 @@ class MultiViewScrollScreen extends StatelessWidget {
                     height: 200,
                     color: Colors.indigoAccent,
                     child: const Center(child: Text('View 5'))),
+                Container(
+                    height: 200,
+                    color: Colors.purpleAccent,
+                    child: const Center(child: Text('View 6'))),
               ],
             ),
-          ),
-          Container(
-            height: 100,
-            color: Colors.amber,
-            child: const Center(
-                child: Text('Footer View',
-                    style: TextStyle(color: Colors.white, fontSize: 24))),
-          ),
-        ],
+            Container(
+              height: 100,
+              color: Colors.amber,
+              child: const Center(
+                  child: Text('Footer View',
+                      style: TextStyle(color: Colors.white, fontSize: 24))),
+            ),
+          ],
+        ),
       ),
     );
   }
